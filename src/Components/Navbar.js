@@ -10,18 +10,22 @@ function Navbar() {
   let links = [
     {
       id: 1,
-      link: "about"
+      link:"home"
     },
     {
       id: 2,
-      link: "work"
+      link: "about"
     },
     {
       id: 3,
-      link: "resume"
+      link: "work"
     },
     {
       id: 4,
+      link: "resume"
+    },
+    {
+      id: 5,
       link: "contact"
     }
   ]
