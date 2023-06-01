@@ -7,16 +7,11 @@ function Home() {
 
       <div className="max-w-screen-lg mx-auto flex flex-col h-full items-center justify-center px-4 md:flex-row">
 
-        <div className='flex  flex-col justify-center h-full'>
+        <div className='flex flex-col justify-center h-full'>
 
           <h2 className=' text-white text-4xl md:text-7xl text-bold py-4'>I'm a Full Stack Developer</h2>
-          <p className='pb-4 text-gray-300'>
-            Hey! I am a student at MAIT Delhi, pursuing B Tech in Electronics and Communication Engineering.
-            5 star @hackerrank in C++
-            HTML, CSS, JavaScript
-            MERN Stack
-            Have previously worked in Python, along with MySQL
-            Currently improving my Web Development skills in ReactJS
+          <p className='pb-4 text-gray-400'>
+            I love to build stuff using technologies like React, NodeJS, Express, Mongo, Tailwind etc. I also like learning and quickly adapting to new technologies, so I'm always learning something new. I'm also a coder, and have also worked on Python with MySQL in the past.
           </p>
 
           <div className="">
