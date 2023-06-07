@@ -3,11 +3,11 @@ import mainpic from "../Assets/Main pic probably.png"
 
 function Home() {
   return (
-    <div className='bg-gradient-to-b  from-black via-black to-gray-800 h-screen'>
+    <div className='bg-gradient-to-b from-black via-black to-gray-800 h-screen '>
 
       <div className="max-w-screen-lg mx-auto flex flex-col h-full items-center justify-center px-4 md:flex-row">
 
-        <div className='flex flex-col justify-center h-full'>
+        <div className='flex flex-col justify-center h-full x-sm:mt-40 md:mt-0'>
 
           <h2 className=' text-white text-4xl md:text-7xl text-bold py-4'>I'm a Full Stack Developer</h2>
           <p className='pb-4 text-gray-400'>
@@ -23,7 +23,7 @@ function Home() {
         </div>
 
         <div className="" >
-          <img src={mainpic} className="rounded-2xl mx-auto w-2/3 md:w-full" alt="Profile" />
+          <img src={mainpic} className="rounded-2xl mx-auto w-2/3 md:w-full mb-10" alt="Profile" />
         </div>
       </div>
 

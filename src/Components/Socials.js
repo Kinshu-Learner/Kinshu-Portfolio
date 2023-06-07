@@ -48,7 +48,7 @@ function Socials() {
     ]
 
     return (
-        <div className='hidden lg:flex flex-col top-[35%] left-0 fixed' >
+        <div className='hidden custom-xl:flex flex-col top-[35%] left-0 fixed' >
 
             <ul>
                 {links.map(({id, link, child, style, download}) => (

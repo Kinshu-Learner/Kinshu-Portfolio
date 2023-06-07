@@ -19,9 +19,12 @@ function Work() {
                             <img src={Newsify} alt="" className='rounded-md' />
                             <div className="text-gray-400 mx-2 my-2">This is a news website that displays latest news in different categories like Entertainment, Technology etc. Created using ReactJS, Bootstrap and NewsAPI.</div>
                         </div>
-                        <div className="rounded-md flex justify-between text-gray-400 bg-black h-12 w-full">
-                            <button className='flex justify-center items-center pl-8 hover:text-purple-600 duration-300'>Code <FaGithub size={20}/></button>
-                            <button className='flex justify-center items-center pr-8 hover:text-sky-500 duration-300'>Live Demo <BsFillRocketTakeoffFill size={20}/></button>
+                        <div className="bg-black rounded-md flex h-12">
+
+                            <div className="rounded-md flex text-gray-400  mx-auto">
+                                <button className='flex justify-center items-center px-4 hover:text-purple-600 duration-300'>Code <FaGithub size={20} /></button>
+                                <button className='flex justify-center items-center px-4 hover:text-sky-500 duration-300'>Live Demo <BsFillRocketTakeoffFill size={20} /></button>
+                            </div>
                         </div>
                     </div>
                 </div>
