@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 function Navbar() {
 
@@ -10,7 +11,7 @@ function Navbar() {
   let links = [
     {
       id: 1,
-      link:"home"
+      link: "home"
     },
     {
       id: 2,
@@ -22,7 +23,7 @@ function Navbar() {
     },
     {
       id: 4,
-      link: "resume"
+      link: "technologies"
     },
     {
       id: 5,
@@ -33,13 +34,15 @@ function Navbar() {
   return (
     <nav className='flex text-white h-20 items-center justify-between bg-black bg-opacity-90 top-0 sticky z-10'>
 
-      <a href='/' className='hover:text-cyan-200 cursor-pointer text-5xl font-signature font-bold ms-6'>Kinshu</a>
+      <a href='/' className='hover:text-sky-500 cursor-pointer text-5xl font-signature font-bold ms-6 hover:scale-105 duration-300'>Kinshu</a>
 
       {/* Menu in greater than medium screens */}
       <ul className='hidden text-gray-400 md:flex items-center mx-6'>
 
         {links.map(({ id, link }) => (
-          <li key={id} className='hover:text-cyan-200 duration-200 hover:scale-105 cursor-pointer mx-4 capitalize'>{link}</li>
+          <li key={id} className='hover:text-purple-500 duration-200 hover:scale-105 cursor-pointer mx-4 capitalize'>
+            <Link to={link} smooth duration={500}>{link}</Link>
+          </li>
         ))}
 
       </ul>
@@ -50,11 +53,13 @@ function Navbar() {
       </div>
 
       {/* To only display this menu when "nav" is true on smaller screens */}
-      {nav && <ul className='flex flex-col justify-center items-center md:hidden text-gray-400 absolute h-screen w-full top-0 left-0 bg-gradient-to-b from-black via-sky-900 to-sky-800 z-[-1] text-3xl'>
+      <ul className={`flex flex-col justify-center items-center md:hidden text-gray-400 absolute ${nav ? "h-screen" : "h-0"} w-full top-0 left-0 ${nav ? "translate-y-0" : "-translate-y-40"} bg-gradient-to-b from-black to-gray-800 z-[-1] text-3xl duration-300 ease-in-out`}>
         {links.map(({ id, link }) => (
-          <li key={id} className='hover:text-cyan-200 duration-200 hover:scale-105 cursor-pointer mx-4 capitalize py-4'>{link}</li>
+          <li key={id} className='hover:text-cyan-200 duration-200 hover:scale-105 cursor-pointer mx-4 capitalize py-4'>
+            <Link onClick={()=>SetNav(!nav)} to={link} smooth duration={500}>{link}</Link>
+            </li>
         ))}
-      </ul>}
+      </ul>
 
     </nav>
   )
