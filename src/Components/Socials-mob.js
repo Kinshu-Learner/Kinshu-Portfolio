@@ -3,25 +3,23 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
-function Socials() {
-
+const Socialsmob = () => {
     let links = [
         {
             id: 1,
             link: "https://www.linkedin.com/in/kinshu-raj-gupta",
             child: (
                 <>
-                    LinkedIn <FaLinkedin size={30} />
+                    <FaLinkedin size={50} />
                 </>
             ),
-            style: "rounded-tr-md"
         },
         {
             id: 2,
             link: "https://github.com/Kinshu-Learner",
             child: (
                 <>
-                    Github<FaGithub size={30} />
+                    <FaGithub size={50} />
                 </>
             )
         },
@@ -30,7 +28,7 @@ function Socials() {
             link: "mailto:kinshurajgupta1@gmail.com",
             child: (
                 <>
-                    Email<HiOutlineMail size={30} />
+                    <HiOutlineMail size={50} />
                 </>
             )
         },
@@ -39,29 +37,28 @@ function Socials() {
             link: "/Kinshu_Resume.pdf",
             child: (
                 <>
-                    Resume<BsFillPersonLinesFill size={30} />
+                    <BsFillPersonLinesFill size={50} />
                 </>
             ),
-            style: "rounded-br-md",
             download: true
         }
     ]
-
     return (
-        <div className='hidden custom-xl:flex flex-col top-[35%] left-0 fixed' >
+        <div className='h-20 bg-gray-800 w-full sm:hidden'>
+            <div className="flex w-full ">
 
-            <ul>
-                {links.map(({id, link, child, style, download}) => (
-                    <li key={id} className={`flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] hover:rounded-md hover:bg-gradient-to-r from-indigo-500 to-purple-700 duration-300 ${style}`}>
-                        <a className='flex justify-between items-center w-full text-white h-14 capitalize' href={link} target='_blank' rel="noreferrer" download={download}>
+                <div className='flex w-full justify-evenly mx-auto items-'>
+
+                    {links.map(({ id, link, child, download }) => (
+                        <a key={id} className="text-white rounded-lg p-2" href={link} target='_blank' rel="noreferrer" download={download}>
                             {child}
                         </a>
-                    </li>
-                ))}
-            </ul>
 
+                    ))}
+                </div>
+            </div>
         </div>
     )
 }
 
-export default Socials
+export default Socialsmob
