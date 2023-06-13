@@ -50,7 +50,7 @@ const Socialsmob = () => {
                 <div className='flex w-full justify-evenly mx-auto items-'>
 
                     {links.map(({ id, link, child, download }) => (
-                        <a key={id} className="text-white rounded-lg p-2" href={link} target='_blank' rel="noreferrer" download={download}>
+                        <a key={id} className="text-white" href={link} target='_blank' rel="noreferrer" download={download}>
                             {child}
                         </a>
 
