@@ -47,7 +47,7 @@ const Socialsmob = () => {
         <div className='h-20 bg-gray-800 w-full sm:hidden'>
             <div className="flex w-full ">
 
-                <div className='flex w-full  justify-evenly mx-auto items-'>
+                <div className='flex w-full justify-evenly mx-auto items-'>
 
                     {links.map(({ id, link, child, download }) => (
                         <a key={id} className="text-white hover:text-purple-500" href={link} target='_blank' rel="noreferrer" download={download}>
