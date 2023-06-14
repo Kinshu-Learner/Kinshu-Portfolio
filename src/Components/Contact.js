@@ -18,19 +18,19 @@ const Contact = () => {
                         <label htmlFor="name" className='text-gray-300 text-xl font-bold px-1 mb-1'>Name</label>
                         <div className=" relative">
                             <div className="absolute bg-gradient-to-tr from-purple-700 to-sky-500 blur-sm inset-0"></div>
-                            <input type="text" name="name" placeholder='Enter your name' className='group relative bg-black p-2 rounded-md text-white focus:outline-none w-full' />
+                            <input type="text" name="name" placeholder='Enter your name' className='group relative bg-black p-2 rounded-md text-white focus:outline-none w-full' required/>
                         </div>
 
                         <label htmlFor="email" className='text-gray-300 text-xl font-bold px-1 mt-4 mb-1'>Email</label>
                         <div className=" relative">
                             <div className="absolute bg-gradient-to-tr from-purple-700 to-sky-500 blur-sm inset-0"></div>
-                            <input type="text" name="email" placeholder='Enter your email' className='relative bg-black p-2 rounded-md text-white focus:outline-none w-full' />
+                            <input type="email" name="email" placeholder='Enter your email' className='relative bg-black p-2 rounded-md text-white focus:outline-none w-full' required/>
                         </div>
 
                         <label htmlFor="message" className='text-gray-300 text-xl font-bold px-1 mt-4 mb-1'>Message</label>
                         <div className=" relative">
                             <div className="absolute bg-gradient-to-tr from-purple-700 to-sky-500 blur-sm inset-0"></div>
-                            <textarea name="message" rows="10" placeholder='What do you want to say?' className='relative bg-black p-2 rounded-md text-white focus:outline-none w-full' />
+                            <textarea name="message" rows="10" placeholder='What do you want to say?' className='relative bg-black p-2 rounded-md text-white focus:outline-none w-full' required/>
                         </div>
 
                         <button className='bg-gradient-to-tr from-purple-500 to-sky-500 py-4 px-6 w-36 text-white mt-4 rounded-md hover:scale-105 duration-300'>Let's Talk</button>

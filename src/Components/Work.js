@@ -47,7 +47,7 @@ function Work() {
                             <div className="absolute -inset-0.5 bg-gradient-to-tr from-cyan-500 via-blue-500 to-purple-500 opacity-60 group-hover:opacity-100 rounded-lg blur-md group-hover:blur-lg group-hover:-inset-3 duration-200 "></div>
                             <div className="relative flex flex-col justify-between bg-gradient-to-b from-gray-800 to-gray-950 h-[400px] rounded-lg group-hover:scale-105 duration-200">
                                 <div>
-                                    <img src={src} alt="" className='rounded-xl p-2 group-hover:scale-[115%] duration-200' />
+                                    <img src={src} alt="" className='rounded-xl p-2' />
                                     <div className="text-gray-400 p-2">{desc}</div>
                                 </div>
                                 <div className="bg-black rounded-md flex h-12">
