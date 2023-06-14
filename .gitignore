@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# images
+src/Assets/iNotebook-temp2.png
+src/Assets/iNotebook-temp3.png
+src/Assets/iNotebook-temp4.png
+src/Assets/Newsify-temp2.png
+src/Assets/Random pic 2 transparent 2.png
+src/Assets/Random pic 2 transparent.png
+src/Assets/Random pic 2.jpg
+src/Assets/TextUtils-temp2.png
+src/Assets/TextUtils-temp3.png
+src/Assets/TextUtils-temp4.png
