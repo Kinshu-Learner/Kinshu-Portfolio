@@ -13,7 +13,7 @@ function Work() {
             src: TextUtils,
             desc: "This is a text utility based website that allows user to convert in uppercase, lowercase, count number of words etc. Created using ReactJS, Bootstrap.",
             codelink: "https://github.com/Kinshu-Learner/TextUtils-PC.git",
-            demolink: ""
+            demolink: "https://textutils-kinshu-learner.vercel.app/"
         },
         {
             id: 2,
