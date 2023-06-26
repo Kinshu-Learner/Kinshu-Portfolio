@@ -69,7 +69,7 @@ const Technologies = () => {
     ]
 
     return (
-        <div name='technologies' className='bg-gradient-to-b from-gray-800 to-black h-full md:h-screen w-full'>
+        <div name='technologies' className='bg-gradient-to-b from-gray-800 to-black h-full md:h-screen w-full md:py-[500px]'>
 
             <div className="max-w-screen-lg flex flex-col justify-center p-4 mx-auto w-full h-full">
 
