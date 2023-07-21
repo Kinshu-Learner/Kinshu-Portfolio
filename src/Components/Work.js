@@ -15,7 +15,7 @@ function Work() {
             name: "ImageAI | DALL-E Clone",
             desc: "An AI image generating website (DALL-E clone) made using the MERN stack, TailwindCSS, Cloudinary and OpenAI's DALL-E API.",
             codelink: "https://github.com/Kinshu-Learner/ImageAI",
-            demolink: ""
+            demolink: "https://kinshu-imageai.vercel.app/"
         },
         {
             id: 2,
