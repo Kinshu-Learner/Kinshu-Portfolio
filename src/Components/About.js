@@ -9,7 +9,7 @@ function About() {
                 </div>
                 <p className='text-gray-400 text-xl leading-8'>Hello! I'm Kinshu Raj Gupta, a passionate web developer with expertise in the MERN stack. I just love to learn, especially anything related to technology excites me the most.
                 <br />
-                I am a student at Maharaja Agrasen Institue of Technology (MAIT) Delhi, pursuing B Tech in Electronics and Communication Engineering.
+                I am a student at Maharaja Agrasen Institute of Technology (MAIT) Delhi, pursuing B Tech in Electronics and Communication Engineering.
                 <br />
                 Although I work on MERN stack, working on frontend technologies like React, with frameworks like Tailwind is my favorite thing to do. I like learning and exploring new libraries like parallax, spring etc, and implementing them into my projects. This way, I always have something new and fresh to work upon.
                 <br />
