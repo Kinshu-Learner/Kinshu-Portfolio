@@ -3,6 +3,7 @@ import Newsify from '../Assets/Newsify-temp3.png'
 import TextUtils from '../Assets/TextUtils-temp5.png'
 import iNotebook from '../Assets/iNotebook-temp5.png'
 import ImageAI from '../Assets/ImageAI-temp2.png'
+import Recruitify from '../Assets/Recruitify-temp1.png'
 import { FaGithub } from 'react-icons/fa'
 import { BsFillRocketTakeoffFill } from 'react-icons/bs'
 
@@ -11,6 +12,14 @@ function Work() {
     const projects = [
         {
             id: 1,
+            src: Recruitify,
+            name: "Recruitify",
+            desc: "A recruitment startup landing page created using ReactJS and TailwindCSS, additional libraries/technologies used: react-scroll, react-slick",
+            codelink: "https://github.com/Kinshu-Learner/recruitify",
+            demolink: "https://recruitify-kinshu.vercel.app/"
+        },
+        {
+            id: 2,
             src: ImageAI,
             name: "ImageAI | DALL-E Clone",
             desc: "An AI image generating website (DALL-E clone) made using the MERN stack, TailwindCSS, Cloudinary and OpenAI's DALL-E API.",
@@ -18,7 +27,7 @@ function Work() {
             demolink: "https://kinshu-imageai.vercel.app/"
         },
         {
-            id: 2,
+            id: 3,
             src: TextUtils,
             name: "TextUtils",
             desc: "This is a text utility based website that allows user to convert in uppercase, lowercase, count number of words etc. Created using ReactJS, Bootstrap.",
@@ -26,7 +35,7 @@ function Work() {
             demolink: "https://textutils-kinshu-learner.vercel.app/"
         },
         {
-            id: 3,
+            id: 4,
             src: Newsify,
             name:"Newsify",
             desc: "This is a news website that displays latest news in different categories like Entertainment, Technology etc. Created using ReactJS, Bootstrap & NewsAPI.",
@@ -34,7 +43,7 @@ function Work() {
             demolink: ""
         },
         {
-            id: 4,
+            id: 5,
             src: iNotebook,
             name:"iNotebook",
             desc: "This is a notebook on the web with user authorisation, signup and login. User can create, edit, delete notes. Created using MERN stack and Bootstrap.",
