@@ -53,8 +53,8 @@ function Work() {
     ]
 
     return (
-        <div name='work' className='bg-gradient-to-b from-black to-gray-800 md:h-screen w-full pt-64 sm:pt-0 md:py-[400px]'>
-            <div className="flex flex-col justify-center max-w-screen-lg p-4 mx-auto w-full h-full">
+        <div className='bg-gradient-to-b from-black to-gray-800 md:h-screen w-full pt-[500px] pb-10 sm:pt-0 md:py-[400px]'>
+            <div name='work' className="flex flex-col justify-center max-w-screen-lg p-4 mx-auto w-full h-full">
 
                 <div className="pb-8">
                     <h2 className='text-white text-4xl font-bold inline border-b-4 border-sky-500 mb-8'>Work/Projects</h2>
