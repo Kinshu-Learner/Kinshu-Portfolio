@@ -34,7 +34,7 @@ const Socialsmob = () => {
         },
         {
             id: 4,
-            link: "/Kinshu_Resume.pdf",
+            link: "/Kinshu_CV.pdf",
             child: (
                 <>
                     <BsFillPersonLinesFill size={50} />

@@ -3,6 +3,7 @@ import Newsify from '../Assets/Newsify-temp3.png'
 import TextUtils from '../Assets/TextUtils-temp5.png'
 import iNotebook from '../Assets/iNotebook-temp5.png'
 import ImageAI from '../Assets/ImageAI-temp2.png'
+import Hotelify from '../Assets/Hotelify.png'
 import Recruitify from '../Assets/Recruitify-temp1.png'
 import { FaGithub } from 'react-icons/fa'
 import { BsFillRocketTakeoffFill } from 'react-icons/bs'
@@ -12,11 +13,11 @@ function Work() {
     const projects = [
         {
             id: 1,
-            src: Recruitify,
-            name: "Recruitify",
-            desc: "A recruitment startup landing page created using ReactJS and TailwindCSS, additional libraries/technologies used: react-scroll, react-slick",
-            codelink: "https://github.com/Kinshu-Learner/recruitify",
-            demolink: "https://recruitify-kinshu.vercel.app/"
+            src: Hotelify,
+            name: "Hotelify",
+            desc: "Hotelify is a full-stack web application (with Stripe integration) that serves as a clone of popular hotel booking platforms like Booking.com.",
+            codelink: "https://github.com/Kinshu-Learner/Hotelify",
+            demolink: "https://hotelify.onrender.com/"
         },
         {
             id: 2,
@@ -28,6 +29,14 @@ function Work() {
         },
         {
             id: 3,
+            src: Recruitify,
+            name: "Recruitify",
+            desc: "A recruitment startup landing page created using ReactJS and TailwindCSS, additional libraries/technologies used: react-scroll, react-slick.",
+            codelink: "https://github.com/Kinshu-Learner/recruitify",
+            demolink: "https://recruitify-kinshu.vercel.app/"
+        },
+        {
+            id: 4,
             src: TextUtils,
             name: "TextUtils",
             desc: "This is a text utility based website that allows user to convert in uppercase, lowercase, count number of words etc. Created using ReactJS, Bootstrap.",
@@ -35,17 +44,17 @@ function Work() {
             demolink: "https://textutils-kinshu-learner.vercel.app/"
         },
         {
-            id: 4,
+            id: 5,
             src: Newsify,
-            name:"Newsify",
+            name: "Newsify",
             desc: "This is a news website that displays latest news in different categories like Entertainment, Technology etc. Created using ReactJS, Bootstrap & NewsAPI.",
             codelink: "https://github.com/Kinshu-Learner/Newsify-PC",
             demolink: ""
         },
         {
-            id: 5,
+            id: 6,
             src: iNotebook,
-            name:"iNotebook",
+            name: "iNotebook",
             desc: "This is a notebook on the web with user authorisation, signup and login. User can create, edit, delete notes. Created using MERN stack and Bootstrap.",
             codelink: "https://github.com/Kinshu-Learner/iNotebook-laptop",
             demolink: ""

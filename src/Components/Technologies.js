@@ -2,11 +2,14 @@ import React from 'react'
 import html from '../Assets/html.png'
 import css from '../Assets/css.png'
 import javascript from '../Assets/javascript.png'
+import typescript from '../Assets/typescript.png'
 import react from '../Assets/react.png'
+import next from '../Assets/nextjs.png'
 import node from '../Assets/node.png'
 import github from '../Assets/github.png'
 import tailwind from '../Assets/tailwind.png'
 import mongo from '../Assets/mongo.png'
+import express from '../Assets/express-js.png'
 import bootstrap from '../Assets/bootstrap.png'
 
 const Technologies = () => {
@@ -32,36 +35,54 @@ const Technologies = () => {
         },
         {
             id: 4,
+            text: "TypeScript",
+            src: typescript,
+            style: "from-cyan-200 to-[#2d79c7] ",
+        },
+        {
+            id: 5,
             text: "ReactJS",
             src: react,
             style: "from-sky-200 to-sky-700 ",
         },
         {
-            id: 5,
+            id: 6,
+            text: "NextJS",
+            src: next,
+            style: "from-white to-gray-800 ",
+        },
+        {
+            id: 7,
             text: "Tailwind",
             src: tailwind,
             style: "from-cyan-200 to-cyan-700 ",
         },
         {
-            id: 6,
+            id: 8,
             text: "NodeJS",
             src: node,
             style: "from-lime-200 to-lime-700 ",
         },
         {
-            id: 7,
+            id: 9,
             text: "MongoDB",
             src: mongo,
             style: "from-emerald-200 to-emerald-700 ",
         },
         {
-            id: 8,
+            id: 10,
+            text: "ExpressJS",
+            src: express,
+            style: "from-gray-200 to-gray-700 ",
+        },
+        {
+            id: 11,
             text: "GitHub",
             src: github,
             style: "from-violet-200 to-violet-700 ",
         },
         {
-            id: 9,
+            id: 12,
             text: "Bootstrap",
             src: bootstrap,
             style: "from-purple-200 to-purple-700 ",
