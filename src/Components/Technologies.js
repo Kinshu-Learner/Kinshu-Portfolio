@@ -5,9 +5,11 @@ import javascript from '../Assets/javascript.png'
 import typescript from '../Assets/typescript.png'
 import react from '../Assets/react.png'
 import next from '../Assets/nextjs.png'
+import redux from '../Assets/Redux.png'
 import node from '../Assets/node.png'
 import github from '../Assets/github.png'
 import tailwind from '../Assets/tailwind.png'
+import SCSS from '../Assets/SCSS.svg'
 import mongo from '../Assets/mongo.png'
 import express from '../Assets/express-js.png'
 import bootstrap from '../Assets/bootstrap.png'
@@ -53,36 +55,48 @@ const Technologies = () => {
         },
         {
             id: 7,
+            text: "Redux",
+            src: redux,
+            style: "from-purple-300 to-purple-800 ",
+        },
+        {
+            id: 8,
             text: "Tailwind",
             src: tailwind,
             style: "from-cyan-200 to-cyan-700 ",
         },
         {
-            id: 8,
+            id: 9,
+            text: "SCSS",
+            src: SCSS,
+            style: "from-pink-200 to-pink-700 ",
+        },
+        {
+            id: 10,
             text: "NodeJS",
             src: node,
             style: "from-lime-200 to-lime-700 ",
         },
         {
-            id: 9,
+            id: 11,
             text: "MongoDB",
             src: mongo,
             style: "from-emerald-200 to-emerald-700 ",
         },
         {
-            id: 10,
+            id: 12,
             text: "ExpressJS",
             src: express,
             style: "from-gray-200 to-gray-700 ",
         },
         {
-            id: 11,
+            id: 13,
             text: "GitHub",
             src: github,
             style: "from-violet-200 to-violet-700 ",
         },
         {
-            id: 12,
+            id: 14,
             text: "Bootstrap",
             src: bootstrap,
             style: "from-purple-200 to-purple-700 ",
@@ -90,7 +104,7 @@ const Technologies = () => {
     ]
 
     return (
-        <div name='technologies' className='bg-gradient-to-b from-gray-800 to-black h-full md:h-screen w-full md:py-[500px]'>
+        <div name='technologies' className='bg-gradient-to-b from-gray-800 to-black h-full md:h-full w-full md:py-[200px]'>
 
             <div className="max-w-screen-lg flex flex-col justify-center p-4 mx-auto w-full h-full">
 
@@ -108,7 +122,7 @@ const Technologies = () => {
                             <div className={`absolute -inset-0.5 bg-gradient-to-tr ${style} rounded-lg blur-md opacity-60 group-hover:opacity-100  group-hover:scale-105 group-hover:-inset-1 duration-300`}></div>
 
                             <div className="relative text-white rounded-lg py-2 bg-gradient-to-b from-gray-900 to-gray-950 group-hover:scale-105 duration-300">
-                                <img src={src} alt="" className='w-20 mx-auto m-4' />
+                                <img src={src} alt="" className='w-20 aspect-square object-contain mx-auto m-4' />
                                 <p className='mt-4'>{text}</p>
                             </div>
 
@@ -124,4 +138,4 @@ const Technologies = () => {
     )
 }
 
-export default Technologies
+export default Technologies;
