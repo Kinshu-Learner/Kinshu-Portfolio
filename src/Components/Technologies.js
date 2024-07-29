@@ -10,6 +10,7 @@ import node from '../Assets/node.png'
 import github from '../Assets/github.png'
 import tailwind from '../Assets/tailwind.png'
 import SCSS from '../Assets/SCSS.svg'
+import materialUi from '../Assets/materialUi.svg'
 import mongo from '../Assets/mongo.png'
 import express from '../Assets/express-js.png'
 import bootstrap from '../Assets/bootstrap.png'
@@ -73,30 +74,36 @@ const Technologies = () => {
         },
         {
             id: 10,
+            text: "Material-UI",
+            src: materialUi,
+            style: "from-cyan-300 to-blue-700 ",
+        },
+        {
+            id: 11,
             text: "NodeJS",
             src: node,
             style: "from-lime-200 to-lime-700 ",
         },
         {
-            id: 11,
+            id: 12,
             text: "MongoDB",
             src: mongo,
             style: "from-emerald-200 to-emerald-700 ",
         },
         {
-            id: 12,
+            id: 13,
             text: "ExpressJS",
             src: express,
             style: "from-gray-200 to-gray-700 ",
         },
         {
-            id: 13,
+            id: 14,
             text: "GitHub",
             src: github,
             style: "from-violet-200 to-violet-700 ",
         },
         {
-            id: 14,
+            id: 15,
             text: "Bootstrap",
             src: bootstrap,
             style: "from-purple-200 to-purple-700 ",
